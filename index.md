@@ -11,6 +11,8 @@ Hello world!
 * 1
 * 2
 * 3
+
 Making a horizontal line:
 ---
+
 `Inline code` with backticks
