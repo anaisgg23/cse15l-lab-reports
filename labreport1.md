@@ -1,4 +1,5 @@
 #                                                                Lab Report #1
+<div style="text-align: center;" markdown="1">This line is centered.
 ---
 ## Using cd
 1. Share an example of using the command with no arguments.
