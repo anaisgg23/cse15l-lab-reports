@@ -5,7 +5,7 @@
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/78613d71-1e7c-4be3-bbd1-11549a15b180) 
 * When the command was ran the working directory was the `/home` directory.
 * Having no argument meant that I did not specify what directory I wanted to switch to. Therefore the output that I got was empty because I stayed in the directory I was in.
-* The output is not an error because the directory was not changed and nothing was printed as expected. \
+* The output is not an error because the directory was not changed and nothing was printed as expected. 
 
 2. Share an example of using the command with a path to a directory as an argument. \
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/4f1722ce-ab06-4eaf-841e-a349fc0a4513)
