@@ -43,12 +43,11 @@
 ## Using cat
 1. Share an example of using the command with no arguments. \
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/55ab4994-c4fc-407a-bebe-0ac2e162623a)
-
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/49df9bc2-0227-4b80-8f46-d8c8aa79631e)
 * When the command was ran the working directory was the `/home` directory.
 * Having no argument meant that I did not specify what content I wanted to be printed given by using paths. Therefore the output that I got was empty because I did not specify the file or files that I wanted the contents of to be printed. When using cat with no argument an infinite loop is created and I have to `ctrl + c` in order to get out of the infinite loop. While in the infinite loop, typing something in the empty terminal and pressing enter causes the terminal to return what I typed.
-* The output is not an error because the file was not specified therefore nothing can be printed and an empty output was expected. 
-
+* The output is not an error because the file was not specified therefore nothing can be printed and an empty output was expected.
+  
 2. Share an example of using the command with a path to a directory as an argument. \
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/a76ba8bc-2606-484a-9439-582457a6fe88)
 * When the command was ran the working directory was the `/home` directory.
