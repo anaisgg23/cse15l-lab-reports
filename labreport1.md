@@ -2,14 +2,14 @@
 ---
 ## Using cd
 1. Share an example of using the command with no arguments. \
-![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/78613d71-1e7c-4be3-bbd1-11549a15b180) 
-* When the command was ran the working directory was the `/home` directory.
-* Having no argument meant that I did not specify what directory I wanted to switch to. Therefore the output that I got was empty because I stayed in the directory I was in.
+![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/a3ddd9e3-c77e-45ac-8c77-38c14b6bfacd)
+* When the command was ran the working directory was the `/home/lecture1` directory.
+* Having no argument means that it changes to the `/home` directory. 
 * The output is not an error because the directory was not changed and nothing was printed as expected. 
 
 2. Share an example of using the command with a path to a directory as an argument. \
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/4f1722ce-ab06-4eaf-841e-a349fc0a4513)
-* When the command was ran the working directory was the `/home` directory which then switched to the '/home/lecture1` directory after it ran.
+* When the command was ran the working directory was the `/home` directory which then switched to the `/home/lecture1` directory after it ran.
 * The output was empty, however the prompt changed from `~` to `~/lecture1` indicating that I am now in the lecture1 directory because `cd` switched the current directory to the given path which in this case is lecture1.
 * The output is not an error because the `cd` command worked as expected meaning it successfully changed the directory to the one in the argument.
 
@@ -35,22 +35,24 @@
 
 3. Share an example of using the command with a path to a file as an argument. \
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/e8378825-f59b-4358-9d6c-d08977987007)
-* When the command was ran the working directory was the `/home/lecture1/messages` directory because in order to use a file as an arguement I had to be in the directory where the file I want to use is in.
+* When the command was ran the working directory was the `/home/lecture1/messages` directory because in order to use a file as an arguement I had to be in the directory where the file I want to use is in. Another way to do it is by working in the `/home` directory and providing a relative or absolute path. 
 * The output I received was the name of the file I used in my argument which I did not expect since there are no files or folders in "es-mx.txt/"
-* The output is an error because `ls` is suppose to list the files and folders in the given path but "es-mx.txt" does not have an files or folders in it.
+* The output is not error because `ls` since it is expected to print what is present in the file.
 
 ---
 ## Using cat
 1. Share an example of using the command with no arguments. \
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/55ab4994-c4fc-407a-bebe-0ac2e162623a)
+
+![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/49df9bc2-0227-4b80-8f46-d8c8aa79631e)
 * When the command was ran the working directory was the `/home` directory.
-* Having no argument meant that I did not specify what content I wanted to be printed given by using paths. Therefore the output that I got was empty because I did not specify the file or files that I wanted the contents of to be printed.
+* Having no argument meant that I did not specify what content I wanted to be printed given by using paths. Therefore the output that I got was empty because I did not specify the file or files that I wanted the contents of to be printed. When using cat with no argument an infinite loop is created and I have to `ctrl + c` in order to get out of the infinite loop. While in the infinite loop, typing something in the empty terminal and pressing enter causes the terminal to return what I typed.
 * The output is not an error because the file was not specified therefore nothing can be printed and an empty output was expected. 
 
 2. Share an example of using the command with a path to a directory as an argument. \
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/a76ba8bc-2606-484a-9439-582457a6fe88)
 * When the command was ran the working directory was the `/home` directory.
-* The `cat` command needs to be given a path in order to print the contents of one or more files. However 'lecture1' is a directory and not a path which is specified in the output.
+* The `cat` command needs to be given a path in order to print the contents of one or more files. However `lecture1` is a directory and not a path which is specified in the output.
 * The output is an error because the `cat` command needs a path as an argument not a directory. Therefore having a directory as an argument causes `cat` to fail.
 
 3. Share an example of using the command with a path to a file as an argument. \
