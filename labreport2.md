@@ -46,6 +46,7 @@ class ChatServer {
 * The method being called is the `handleRequest` method. 
 * The relevant arguments are the values "Hey!" and "Anais". The values of any relevant fields are `int i = 6`, `String message = "Hey"` and `String[] users = "Anais"`
 * The values of i, message, users, and list change as i is set to the index of "&" in the argument, message is changed to the substring between index 2(which is after "s=") and index i, user is changed to whatever is after "user=" in the argument, and a new formatted stirng is added to list which as this point already has the past formatted strings.
+  
 ---
 ## Part 2
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/4bdb1a0d-f21b-4265-ae06-5b3bbbd98099)
