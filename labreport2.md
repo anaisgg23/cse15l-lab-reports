@@ -1,7 +1,7 @@
 # LAB REPORT #2 Servers and SSH Keys
 ---
 ## Part 1
-ChatServer code:
+`ChatServer` code:
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -37,7 +37,18 @@ class ChatServer {
     }
 }
 ```
+![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/df6df832-0e94-4a49-a02f-827308ecaff5)
+* The methods being called in my code is the handleRequest method. The `main` method and `Server.start` method are called being this screenshot, when the server is being created. 
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/9c6d2f0c-b267-4844-bcf8-42d677ad0678)
+* The method being called is the `handleRequest` method. 
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 ---
 ## Part 2
+![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/4bdb1a0d-f21b-4265-ae06-5b3bbbd98099)
+
 ---
 ## Part 3
