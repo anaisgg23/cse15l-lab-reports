@@ -57,4 +57,4 @@ class ChatServer {
 
 ---
 ## Part 3
-* Everything that was covered in lab 2 and 3 from making servers to using SSH keys I did not know anything about before. I learned how to create ports and servers and was able to learn from past examples how the code for setting up methods for these servers work. In addition I learned so much about SSH keys from how to create them to how to create on where I do not need to input my password.
+* Everything that was covered in lab 2 and 3 from making servers to using SSH keys I did not know anything about before. I learned how to create ports and servers and was able to learn from past examples how the code for setting up methods for these servers work. In addition I learned so much about SSH keys from how to create them to how to create on where I do not need to input my password. 
