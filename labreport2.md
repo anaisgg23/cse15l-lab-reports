@@ -38,14 +38,14 @@ class ChatServer {
 }
 ```
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/df6df832-0e94-4a49-a02f-827308ecaff5)
-* The methods being called in my code is the handleRequest method. The `main` method and `Server.start` method are called being this screenshot, when the server is being created. 
-* What are the relevant arguments to those methods, and the values of any relevant fields of the class
-* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+* The methods being called in my code is the `handleRequest` method. The `main` method and `Server.start` method are called being this screenshot, when the server is being created. 
+* The relevant arguments are the values "Hi!" and "Anais". The values of any relevant fields are `int i = 4`, `String message = "Hi"` and `String[] users = "Anais"`
+* The values of i, message, users, and list change as i is set to the index of "&" in the argument, message is changed to the substring between index 2(which is after "s=") and index i, user is changed to whatever is after "user=" in the argument, and list is changed as the new formatted string in added.
 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/9c6d2f0c-b267-4844-bcf8-42d677ad0678)
 * The method being called is the `handleRequest` method. 
-* What are the relevant arguments to those methods, and the values of any relevant fields of the class
-* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+* The relevant arguments are the values "Hey!" and "Anais". The values of any relevant fields are `int i = 6`, `String message = "Hey"` and `String[] users = "Anais"`
+* The values of i, message, users, and list change as i is set to the index of "&" in the argument, message is changed to the substring between index 2(which is after "s=") and index i, user is changed to whatever is after "user=" in the argument, and a new formatted stirng is added to list which as this point already has the past formatted strings.
 ---
 ## Part 2
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/4bdb1a0d-f21b-4265-ae06-5b3bbbd98099)
@@ -57,3 +57,4 @@ class ChatServer {
 
 ---
 ## Part 3
+* Everything that was covered in lab 2 and 3 from making servers to using SSH keys I did not know anything about before. I learned how to create ports and servers and was able to learn from past examples how the code for setting up methods for these servers work. In addition I learned so much about SSH keys from how to create them to how to create on where I do not need to input my password.
