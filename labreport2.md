@@ -52,7 +52,7 @@ class ChatServer {
 * The absolute path to the private key for my SSH key for logging into ieng6 is the one highlighted in pink.
 * The absolute path to the public key for my SSH key for logging into ieng6 is the one highlighted in yellow.
 
-A terminal interaction where I log into my ieng6 account without being asked for a password:
+**A terminal interaction where I log into my ieng6 account without being asked for a password:**
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/07def0ea-ef1e-44f4-ad4e-db8aef4d0a6c)
 
 ---
