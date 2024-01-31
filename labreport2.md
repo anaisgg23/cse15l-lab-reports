@@ -49,6 +49,7 @@ class ChatServer {
 
 ---
 ## Part 2
+
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/c4c1b0f1-d32a-41ab-9879-9401c0b1cb93)
 * The absolute path to the private key for my SSH key for logging into ieng6 is `id_ed25519`.
 * The absolute path to the public key for my SSH key for logging into ieng6 is `id_ed25519.pub`.
