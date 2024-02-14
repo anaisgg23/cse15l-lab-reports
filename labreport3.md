@@ -134,6 +134,7 @@ Citation: [https://www.computerhope.com/unix/ufind.htm]
 **2: find -type**
 
 1. What this command is doing is returning all the files in `/technical` since I did the command `-type f` and f stands for "file". This is useful for when I need to find all the files in my program.
+   
 ```
 anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
 $ find -type f
@@ -206,6 +207,7 @@ $ find -type f
 ./biomed/1471-2431-3-5.txt
 ./biomed/1471-2431-3-6.txt
 ... all the files in /technical (way too many to fit nicely in lab report so I cut it down)
+
 ```
 
 2. What this command is doing is returning all the directories in `/technical` since I did the command `-type d` and d stands for "directories". This is useful for when I need to find all the directories in my program.
