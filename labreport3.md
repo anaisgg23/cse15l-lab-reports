@@ -129,12 +129,11 @@ $ find -name "1471-2202*.txt"
 ./biomed/1471-2202-4-5.txt
 ./biomed/1471-2202-4-6.txt
 ```
-Citation: [https://www.computerhope.com/unix/ufind.htm]
+**Citation: [https://www.computerhope.com/unix/ufind.htm]**
 
 **2: find -type**
 
 1. What this command is doing is returning all the files in `/technical` since I did the command `-type f` and f stands for "file". This is useful for when I need to find all the files in my program.
-   
 ```
 anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
 $ find -type f
@@ -226,7 +225,7 @@ $ find -type d
 ./government/Post_Rate_Comm
 ./plos
 ```
-Citation: [https://www.youtube.com/watch?v=skTiK_6DdqU]
+**Citation: [https://www.youtube.com/watch?v=skTiK_6DdqU]**
 
 **3: find -empty**
 
@@ -243,7 +242,7 @@ $ find -empty
 ./911report/emptyFile
 ```
 
-Citation: [https://www.redhat.com/sysadmin/linux-find-command]
+**Citation: [https://www.redhat.com/sysadmin/linux-find-command]**
 
 **4: find -mtime**
 
@@ -335,4 +334,4 @@ $ find -mtime -365
 anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
 $ find -mtime +10 -mtime -20
 ```
-Citation: [https://opensource.com/downloads/linux-find-cheat-sheet?intcmp=701f20000012ngPAAQ]
+**Citation: [https://opensource.com/downloads/linux-find-cheat-sheet?intcmp=701f20000012ngPAAQ]**
