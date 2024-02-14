@@ -23,17 +23,17 @@ The bug that I have chosen from week 4's lab is the `reversed` method in `ArrayE
 
 **3. The symptom, as the output of running the tests**
 
-Output with failing-inducing input:
+**Output with failing-inducing input:**
 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/45677411-a1c8-4ff6-8c99-45004bfca206)
 
-Output with input that doesn't induce a failure:
+**Output with input that doesn't induce a failure:**
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/56b55dab-5502-46ce-ad64-ec4bf9731a65)
 
 
 **4. The bug, as the before-and-after code change required to fix it**
 
-Code before:
+**Code before:**
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -43,7 +43,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
-Code after:
+**Code after:**
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
