@@ -132,6 +132,94 @@ $ find -name "1471-2202*.txt"
 Citation: [https://www.computerhope.com/unix/ufind.htm]
 
 **2: find -type**
+```
+anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
+$ find -type f
+
+./biomed/1471-2334-2-6.txt
+./biomed/1471-2334-2-7.txt
+./biomed/1471-2334-3-10.txt
+./biomed/1471-2334-3-11.txt
+./biomed/1471-2334-3-12.txt
+./biomed/1471-2334-3-13.txt
+./biomed/1471-2334-3-15.txt
+./biomed/1471-2334-3-9.txt
+./biomed/1471-2350-2-11.txt
+./biomed/1471-2350-2-12.txt
+./biomed/1471-2350-2-2.txt
+./biomed/1471-2350-2-8.txt
+./biomed/1471-2350-3-1.txt
+./biomed/1471-2350-3-12.txt
+./biomed/1471-2350-3-7.txt
+./biomed/1471-2350-3-9.txt
+./biomed/1471-2350-4-2.txt
+./biomed/1471-2350-4-3.txt
+./biomed/1471-2350-4-4.txt
+./biomed/1471-2350-4-6.txt
+./biomed/1471-2369-3-1.txt
+./biomed/1471-2369-3-10.txt
+./biomed/1471-2369-3-6.txt
+./biomed/1471-2369-3-9.txt
+./biomed/1471-2369-4-1.txt
+./biomed/1471-2369-4-5.txt
+./biomed/1471-2377-1-2.txt
+./biomed/1471-2377-2-4.txt
+./biomed/1471-2377-2-6.txt
+./biomed/1471-2377-3-4.txt
+./biomed/1471-2407-1-13.txt
+./biomed/1471-2407-1-15.txt
+./biomed/1471-2407-1-19.txt
+./biomed/1471-2407-1-6.txt
+./biomed/1471-2407-2-11.txt
+./biomed/1471-2407-2-12.txt
+./biomed/1471-2407-2-15.txt
+./biomed/1471-2407-2-16.txt
+./biomed/1471-2407-2-17.txt
+./biomed/1471-2407-2-18.txt
+./biomed/1471-2407-2-19.txt
+./biomed/1471-2407-2-22.txt
+./biomed/1471-2407-2-23.txt
+./biomed/1471-2407-2-3.txt
+./biomed/1471-2407-2-31.txt
+./biomed/1471-2407-2-33.txt
+./biomed/1471-2407-2-8.txt
+./biomed/1471-2407-2-9.txt
+./biomed/1471-2407-3-14.txt
+./biomed/1471-2407-3-15.txt
+./biomed/1471-2407-3-16.txt
+./biomed/1471-2407-3-18.txt
+./biomed/1471-2407-3-3.txt
+./biomed/1471-2407-3-4.txt
+./biomed/1471-2407-3-5.txt
+./biomed/1471-2415-3-1.txt
+./biomed/1471-2415-3-3.txt
+./biomed/1471-2415-3-4.txt
+./biomed/1471-2415-3-5.txt
+./biomed/1471-2431-2-1.txt
+./biomed/1471-2431-2-11.txt
+./biomed/1471-2431-2-12.txt
+./biomed/1471-2431-2-4.txt
+./biomed/1471-2431-3-3.txt
+./biomed/1471-2431-3-4.txt
+./biomed/1471-2431-3-5.txt
+./biomed/1471-2431-3-6.txt
+**... all the files in `/technical` (way too many to fit nicely in lab report so I cut it down)**
+```
+```
+anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
+$ find -type d
+.
+./911report
+./biomed
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+./plos
+```
 **3: find -empty**
 **4: find -ipath**
 **find -mtime**
