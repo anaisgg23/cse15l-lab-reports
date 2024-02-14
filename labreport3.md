@@ -134,6 +134,7 @@ $ find -name "1471-2202*.txt"
 **2: find -type**
 
 1. What this command is doing is returning all the files in `/technical` since I did the command `-type f` and f stands for "file". This is useful for when I need to find all the files in my program.
+   
 ```
 anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
 $ find -type f
