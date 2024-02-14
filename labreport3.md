@@ -2,6 +2,7 @@
 ---
 ## Part 1
 The bug that I have chosen from week 4's lab is the `reversed` method in `ArrayExamples.java`
+
 **Failure-inducing input for the buggy program:**
 ```
 @Test
@@ -28,6 +29,7 @@ Output with input that doesn't induce a failure:
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/56b55dab-5502-46ce-ad64-ec4bf9731a65)
 
 **The bug, as the before-and-after code change required to fix it**
+
 Code before:
 ```
 static int[] reversed(int[] arr) {
