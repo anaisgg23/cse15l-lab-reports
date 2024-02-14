@@ -22,6 +22,7 @@ The bug that I have chosen from week 4's lab is the `reversed` method in `ArrayE
 ```
 
 **3. The symptom, as the output of running the tests**
+
 Output with failing-inducing input:
 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/45677411-a1c8-4ff6-8c99-45004bfca206)
