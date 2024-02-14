@@ -61,6 +61,76 @@ static int[] reversed(int[] arr) {
 The command that I have chosen is the `find` command
 
 **1: find -name**
+
+1. What this command is doing is finding all the `.txt files` that have `"chapter"` in them. This is useful for when I need to find files that contain a certain character or word in it.
+```
+anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
+$ find -name "chapter*.txt"
+./911report/chapter-1.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+./911report/chapter-12.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-2.txt
+./911report/chapter-3.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-8.txt
+./911report/chapter-9.txt
+```
+
+2. What this command is doing is finding all the `.txt files` that have `"1471-2202"` in them. This is useful for when I need to find files that contain a certain character or word in it or in this case a specific number sequence. 
+```
+anais@anais MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
+$ find -name "1471-2202*.txt"
+./biomed/1471-2202-1-1.txt
+./biomed/1471-2202-2-1.txt
+./biomed/1471-2202-2-10.txt
+./biomed/1471-2202-2-12.txt
+./biomed/1471-2202-2-14.txt
+./biomed/1471-2202-2-15.txt
+./biomed/1471-2202-2-16.txt
+./biomed/1471-2202-2-17.txt
+./biomed/1471-2202-2-18.txt
+./biomed/1471-2202-2-19.txt
+./biomed/1471-2202-2-2.txt
+./biomed/1471-2202-2-20.txt
+./biomed/1471-2202-2-3.txt
+./biomed/1471-2202-2-5.txt
+./biomed/1471-2202-2-6.txt
+./biomed/1471-2202-2-7.txt
+./biomed/1471-2202-2-8.txt
+./biomed/1471-2202-2-9.txt
+./biomed/1471-2202-3-1.txt
+./biomed/1471-2202-3-10.txt
+./biomed/1471-2202-3-11.txt
+./biomed/1471-2202-3-14.txt
+./biomed/1471-2202-3-16.txt
+./biomed/1471-2202-3-17.txt
+./biomed/1471-2202-3-19.txt
+./biomed/1471-2202-3-20.txt
+./biomed/1471-2202-3-3.txt
+./biomed/1471-2202-3-4.txt
+./biomed/1471-2202-3-5.txt
+./biomed/1471-2202-3-7.txt
+./biomed/1471-2202-3-8.txt
+./biomed/1471-2202-4-10.txt
+./biomed/1471-2202-4-11.txt
+./biomed/1471-2202-4-12.txt
+./biomed/1471-2202-4-16.txt
+./biomed/1471-2202-4-17.txt
+./biomed/1471-2202-4-2.txt
+./biomed/1471-2202-4-3.txt
+./biomed/1471-2202-4-5.txt
+./biomed/1471-2202-4-6.txt
+```
+Citation: [https://www.computerhope.com/unix/ufind.htm]
+
 **2: find -type**
 **3: find -empty**
 **4: find -ipath**
