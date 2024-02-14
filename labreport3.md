@@ -205,8 +205,8 @@ $ find -type f
 ./biomed/1471-2431-3-4.txt
 ./biomed/1471-2431-3-5.txt
 ./biomed/1471-2431-3-6.txt
-... all the files in `/technical` (way too many to fit nicely in lab report so I cut it down)
 ```
+... all the files in `/technical` (way too many to fit nicely in lab report so I cut it down)
 
 2. What this command is doing is returning all the directories in `/technical` since I did the command `-type d` and d stands for "directories". This is useful for when I need to find all the directories in my program.
 ```
