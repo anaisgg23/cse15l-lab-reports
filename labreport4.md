@@ -30,32 +30,23 @@ take a screenshot, and write down exactly which keys you pressed to get to that 
 **Keys pressed:** vim ListExamples.java `<enter>`
 - To enter vim I typed "vim ListExamples.java" and pressed enter to enter vim in ListExamples.java
 
+
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/57a3bd80-cd0f-4484-a50c-a5d442ef8688)
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/872e9b41-a243-4741-96fa-72e8d2df2d53)
 
-**Keys pressed:** 
+**Keys pressed:** `j (43 times`, `l (11 times)`, `r`, `2`, `<esc>`, `:wq`, `<enter>`
+- In order to get to the line in ListExamples.java that I needed to fix I used the `j` key to move down 43 times then used the `l` key to move to the right 11 times in order to have my cursor on top of the 1 in "index1" then I pressed `r` which means replace and typed "2" to replace the 1 with a 2. Then I pressed `<esc>` to exit edit mode and type `:wq` followed by entering `<enter>` to save and exit.
 
-
-j x 43 times
-l x 11 times
-type rx over 
-escape
-
-Type  rx  to replace the character at the cursor with  x . **
-
-  1. Move the cursor to the first line below marked --->.
-
-  2. Move the cursor so that it is on top of the first error.
-
-  3. Type   r   and then the character which should be there.
-
-:wq <Enter> to save and exit
 ---
 ## Step 8
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/0f116ce3-d1e4-49b0-9098-498aff882855)
 
-up x 2 to get to bash test.sh enter
+**Keys pressed:** `<up>`,`<up>`,`<enter>`
+- To rereun the tests I used the up arrow to access the "bash test.sh" command that was 2 up in my search history and pressed enter.
+
 ---
 ## Step 9
-![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/bd823eed-ad37-491e-a4ec-48ba257ffb00)
+![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/04402ed8-a4ee-44c8-ab4e-ecc9bcb144b3)
 
+**Keys pressed:** git commit -m "Updated ListExamples.java" `<enter>`, git push origin main `<enter>`,
+- This new VSCode window did not have any memory of commit or push commands so I typed the commit command completely then pressed enter to commit and then typed the push command completly and pressed enter to push the resulting change to my Github account.
