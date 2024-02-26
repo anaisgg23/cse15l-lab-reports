@@ -7,7 +7,7 @@ take a screenshot, and write down exactly which keys you pressed to get to that 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/5a6fe15c-8a58-430a-991e-acc288655601)
 
 Keys pressed: ssh agonzalezgomez@ieng.ucsd.edu `<enter>`
-This new VSCode window did not have any memory of my ssh command so I typed it all completely and used enter to log in. 
+- This new VSCode window did not have any memory of my ssh command so I typed it all completely and used enter to log in. 
 
 ## Step 5
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/122db447-43be-4e3b-9538-492a717a8f22)
