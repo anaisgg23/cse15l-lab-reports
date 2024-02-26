@@ -13,7 +13,7 @@ take a screenshot, and write down exactly which keys you pressed to get to that 
 ## Step 5
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/122db447-43be-4e3b-9538-492a717a8f22)
 
-**Keys pressed:** git clone `<Ctrl+v>`
+**Keys pressed:** git clone `<Ctrl+V>`
 - In order to clone my fork of the repository from my Github account I typed git clone and pasted my SSH url from Github.
 
 ---
