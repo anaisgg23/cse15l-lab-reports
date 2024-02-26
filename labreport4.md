@@ -12,7 +12,8 @@ Keys pressed: ssh agonzalezgomez@ieng6.ucsd.edu `<enter>`
 ## Step 5
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/122db447-43be-4e3b-9538-492a717a8f22)
 
-
+Keys pressed: git clone `<ctrl + v>`
+- In order to clone my fork of the repository from my Github account I typed git clone and pasted my SSH url from Github.
 
 ## Step 6
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/742bb5db-479e-48aa-acf2-d4db1e25472a)
