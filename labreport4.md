@@ -34,7 +34,7 @@ take a screenshot, and write down exactly which keys you pressed to get to that 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/57a3bd80-cd0f-4484-a50c-a5d442ef8688)
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/872e9b41-a243-4741-96fa-72e8d2df2d53)
 
-**Keys pressed:** `j (43 times`, `l (11 times)`, `r`, `2`, `<esc>`, `:wq`, `<enter>`
+**Keys pressed:** `j (43 times)`, `l (11 times)`, `r`, `2`, `<esc>`, `:wq`, `<enter>`
 - In order to get to the line in ListExamples.java that I needed to fix I used the `j` key to move down 43 times then used the `l` key to move to the right 11 times in order to have my cursor on top of the 1 in "index1" then I pressed `r` which means replace and typed "2" to replace the 1 with a 2. Then I pressed `<esc>` to exit edit mode and type `:wq` followed by entering `<enter>` to save and exit.
 
 ---
