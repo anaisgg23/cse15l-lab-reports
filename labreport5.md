@@ -69,3 +69,4 @@ $ java Grade "https://github.com/ucsd-cse15l-f22/list-methods-lab3"
  
 ---
 ## Part 2: Reflection
+* In the second half of this quarter I honestly learned a lot during lecture and labs that I did not know before but what was the newest to me that I found very interesting this second half is learning how to use VIM. Prior to this class I had never heard about VIM and did not know that it was possible to edit a file from the terminal. Through labs I was able to learn how to use VIM and all the commands that I can use when using it. I also learned different shortcuts for when using VIM and was able to apply what I learned during lab and during the skill demonstration. In general, I have learned many useful tools throughout this class and have heard so many great advice from Professor Joe and all the TAs and tutors that I will continue to apply in the future. 
