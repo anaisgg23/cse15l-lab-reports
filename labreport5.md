@@ -15,8 +15,57 @@ of my termianal output, my guess is there is some sort of bug in my Grade class 
 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/d2199e0c-e5a0-4020-84e8-d71e9afee052)
 
-*All the information needed for setup:*
+**All the information needed for setup:**
+1. File and directory structure:
+```
+list-example-grader/
+  lib/
+    hamcrest-core-1.3.jar
+    junit-4.13.2.jar
+  GradeServer.java
+  Server.java
+  TestListExamples.java
+  grade.sh
+```
 
+2. Contents before fixing bug:
+```
+class Grade {
+  static String grade(String repo) throws IOException {
+  String CPATH = ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar";
+  String r = "";
+  String[][] cmds = {
+  
+    {"rm", "-rf", "student-submission"},
+  
+    {"git", "clone", repo, "student-submission"},
+  
+    {"echo", "Finished cloning"},
+  
+    {"cp", "student-submission/ListExamples.java", "./"},
+  
+    {"bash", "-c", "javac -cp " + CPATH + "*.java"},
+  
+    {"java", "-cp", CPATH, "org.junit.runner.JUnitCore", "TestListExamples"}
+  };
+  for (String[] cmd: cmds) {
+    r += ExecHelpers.exec(cmd);
+  }
+  return r;
+}
+  public static void main(String[] args) throws IOException {
+    System.out.println(grade(args[0]));
+  }
+}
+```
 
+3. Command ran that triggered the bug:
+```
+$ java Grade "https://github.com/ucsd-cse15l-f22/list-methods-lab3"
+```
+
+4. Desciption of what to edit to fix the bug:
+* In order to fix the bug, there needs to be a space added before "*.java" in the line that contains "bash" because if there is no space, CPATH and *.java are being concatenated together and we need them to be separated when compiling.
+ 
 ---
 ## Part 2: Reflection
