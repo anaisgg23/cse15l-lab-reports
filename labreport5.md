@@ -15,6 +15,8 @@ of my termianal output, my guess is there is some sort of bug in my Grade class 
 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/d2199e0c-e5a0-4020-84e8-d71e9afee052)
 
-**All the information needed for setup:**
+*All the information needed for setup:*
+
+
 ---
 ## Part 2: Reflection
