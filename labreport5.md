@@ -7,6 +7,8 @@ of my termianal output, my guess is there is some sort of bug in my Grade class 
 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/be3bfd60-4bb7-42cd-8117-b677083535d1)
 
+<span style="color:purple">Ta:</span> Hello, 
+
 
 ---
 ## Part 2: Reflection
