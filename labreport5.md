@@ -2,7 +2,7 @@
 ---
 ## Part 1: Debugging Scenario
   
-🤷‍♀️<span style="color:blue">Student:</span> Hey! I am currently trying to run my grade server using a githib student submission url to run my grader and I received output saying that the clone finished but there was also an error message saying "no source files" I have included a screenshot of the output and my grade class.
+🤷‍♀️<span style="color:blue">Student:</span> Hey! I am currently trying to run my grade server using a github student submission url to run my grader and I received output saying that the clone finished but there was also an error message saying "no source files" I have included a screenshot of the output and my grade class.
 of my termianal output, my guess is there is some sort of bug in my Grade class but I don't know what it is.
 
 ![image](https://github.com/anaisgg23/cse15l-lab-reports/assets/156368955/be3bfd60-4bb7-42cd-8117-b677083535d1)
@@ -36,17 +36,17 @@ class Grade {
   String r = "";
   String[][] cmds = {
   
-    {"rm", "-rf", "student-submission"},
-  
-    {"git", "clone", repo, "student-submission"},
-  
-    {"echo", "Finished cloning"},
-  
-    {"cp", "student-submission/ListExamples.java", "./"},
-  
-    {"bash", "-c", "javac -cp " + CPATH + "*.java"},
-  
-    {"java", "-cp", CPATH, "org.junit.runner.JUnitCore", "TestListExamples"}
+      {"rm", "-rf", "student-submission"},
+    
+      {"git", "clone", repo, "student-submission"},
+    
+      {"echo", "Finished cloning"},
+    
+      {"cp", "student-submission/ListExamples.java", "./"},
+    
+      {"bash", "-c", "javac -cp " + CPATH + "*.java"},
+    
+      {"java", "-cp", CPATH, "org.junit.runner.JUnitCore", "TestListExamples"}
   };
   for (String[] cmd: cmds) {
     r += ExecHelpers.exec(cmd);
